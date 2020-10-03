@@ -1,0 +1,86 @@
+body{
+    display:flex;
+    justify-content:center;
+    background-color:#F5F6FA;
+}
+
+#all-appli{
+    width:50%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid #DADADA;
+}
+
+#total{padding: 1%;
+margin: auto;
+}
+
+
+.barre {
+    padding: 8px 5px;
+    margin-left: 2%;
+}
+
+.barre:focus {  
+    outline:0;
+}
+
+#search-message{
+    width: 57%;
+}
+
+#new-message{
+    width: 85%;
+}
+
+.btn{
+    border: 1px solid #1E90FF;
+    border-radius: 5px;
+    color:#1E90FF;
+    font-size:16px;
+    padding: 7px;
+    background-color: white;
+    margin-left: 2%;
+    }
+
+.btn:focus {  
+    outline:0;
+}
+
+.mail{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #DADADA;
+    border-bottom: none;
+    padding: 15px;
+    background-color: white;
+}
+
+
+.opensans{
+    padding-left: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h6{
+    margin: 0px 0px 10px 0px;
+    font-size: 14px;
+}
+
+p{
+    font-weight: 400;
+}
+
+
+.avatar{
+    height:60px;
+    border-radius: 50%;
+}
+
+.poub{
+    height:15px;
+    margin-left:auto;
+    padding-left: 15px;
+}
